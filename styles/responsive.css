@@ -1,0 +1,81 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #page-home header a {
+        bottom: 18px;
+    }  
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 100px;
+    }
+}
+
+/*My code*/
+@media (max-width: 670px) {
+    form {
+        padding: 10px 0;
+    }
+
+    form h1 {
+        text-align: center;
+    }
+
+    legend h2 {
+        margin-left: 10px;
+    }
+
+    form input,
+    form label,
+    form select {
+    
+    padding: 8px 12px;
+    
+    }
+
+    form .field-group .field + .field {
+        margin-left: 10px;
+    }
+
+    form button {
+        margin-left: 70px;
+    }
+
+    .responsiveInput {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .teste {
+        width: 95%;
+    }
+
+}
